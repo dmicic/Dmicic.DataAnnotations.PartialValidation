@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmicic.DataAnnotations.PartialValidation", "Dmicic.DataAnnotations.PartialValidation\Dmicic.DataAnnotations.PartialValidation.csproj", "{48F6966E-A629-4FED-B8A1-DCF4B9CB2F37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dmicic.DataAnnotations.PartialValidation.TestClient", "Dmicic.DataAnnotations.PartialValidation.TestClient\Dmicic.DataAnnotations.PartialValidation.TestClient.csproj", "{0FB50185-A74C-4946-8986-2750CA52EBEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{1FBD944F-6F2C-4148-98FF-0F75A5A5A047}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{4595DCE4-B5AD-4FD2-9F7A-595EDF09DBB9}"
+	ProjectSection(SolutionItems) = preProject
+		SolutionItems\Nuget\NuGet.exe = SolutionItems\Nuget\NuGet.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48F6966E-A629-4FED-B8A1-DCF4B9CB2F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F6966E-A629-4FED-B8A1-DCF4B9CB2F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F6966E-A629-4FED-B8A1-DCF4B9CB2F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F6966E-A629-4FED-B8A1-DCF4B9CB2F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB50185-A74C-4946-8986-2750CA52EBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB50185-A74C-4946-8986-2750CA52EBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB50185-A74C-4946-8986-2750CA52EBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB50185-A74C-4946-8986-2750CA52EBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4595DCE4-B5AD-4FD2-9F7A-595EDF09DBB9} = {1FBD944F-6F2C-4148-98FF-0F75A5A5A047}
+	EndGlobalSection
+EndGlobal
